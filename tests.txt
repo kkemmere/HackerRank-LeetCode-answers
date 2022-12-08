@@ -1,21 +1,19 @@
 ******Plus Minus EXERCISE******* index.js:26:9
 0.625000
 0.250000
-0.125000 index.js:58:18
+0.125000 
 ******Min-Max Sum EXERCISE******* index.js:67:9
-8003 188000 index.js:97:18
+8003 188000 
 ******Index of two items in array that sum up to target value******* index.js:102:9
 Array [ 3, 4 ]
-index.js:123:9
 Array [ 3, 4 ]
-index.js:151:9
 ******Convert normal time to military time******* index.js:153:9
-19:05:45 index.js:182:9
+19:05:45 
 ******Find Median of odd length array******* index.js:184:9
-Median: 13 index.js:195:11
+Median: 13 
 ******Find Mean of any length array******* index.js:200:9
-Mean: 232 index.js:210:11
+Mean: 232 
 ******Capitalize every other character in a string******* index.js:218:9
-HeLlO index.js:242:18
+HeLlO 
 ******Fix an html string that contains no closing </div>******* index.js:247:9
 <div></div><p>Hello WOrld</p><div></div>

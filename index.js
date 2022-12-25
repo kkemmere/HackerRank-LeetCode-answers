@@ -279,3 +279,28 @@ const fixHTML = (string) => {
 };
 
 console.log(fixHTML("<div><div><p>Hello WOrld</p><div><div>"));
+
+console.log("*******a2b3 string format******");
+
+// Only works if number in string input is 0-9 since it is reading the next value in the string.
+// Number value of 0 in string will result in no output of character
+
+const stringFormat = (string) => {
+  let ourNumber;
+  let ourResult = [];
+
+  for (let i = 0; i < string.length; i++) {
+    if (i % 2 === 1) {
+      ourNumber = parseInt(string[i]);
+
+      while (ourNumber !== 0) {
+        ourNumber = ourNumber - 1;
+        ourResult.push(string[i - 1]);
+      }
+    }
+  }
+
+  return string + " " + ourResult.join("");
+};
+
+console.log(stringFormat("a9b9c9d9e9f9g9h9"));

@@ -19,3 +19,5 @@ HeLlO
 <div></div><p>Hello WOrld</p><div></div>
 *******a2b3 string format****** index.js:283:9
 a9b9c9d9e9f9g9h9 aaaaaaaaabbbbbbbbbcccccccccdddddddddeeeeeeeeefffffffffggggggggghhhhhhhhh
+*******a2b3 string COMPRESSION****** index.js:309:9
+a7b14c7d6e4f3g3h1

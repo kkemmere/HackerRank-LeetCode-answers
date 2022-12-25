@@ -280,12 +280,13 @@ const fixHTML = (string) => {
 
 console.log(fixHTML("<div><div><p>Hello WOrld</p><div><div>"));
 
-console.log("*******a2b3 string format******");
+console.log("*******a2b3 string DECOMPRESSION******");
 
+// String decompression
 // Only works if number in string input is 0-9 since it is reading the next value in the string.
 // Number value of 0 in string will result in no output of character
 
-const stringFormat = (string) => {
+const stringDecompression = (string) => {
   let ourNumber;
   let ourResult = [];
 
@@ -303,4 +304,25 @@ const stringFormat = (string) => {
   return string + " " + ourResult.join("");
 };
 
-console.log(stringFormat("a9b9c9d9e9f9g9h9"));
+console.log(stringDecompression("a9b9c9d9e9f9g9h9"));
+
+console.log("*******a2b3 string COMPRESSION******");
+
+// Compress a string aabbb into format aXbY
+
+const stringCompression = (string) => {
+  let ourResult = [];
+  let counter = 0;
+
+  for (let i = 0; i < string.length; i++) {
+    counter++;
+    if (string[i] != string[i + 1]) {
+      ourResult.push(string[i] + counter);
+      counter = 0;
+    }
+  }
+
+  return ourResult.join("");
+};
+
+console.log(stringCompression("aaaaaaabbbbbbbbbbbbbbcccccccddddddeeeefffgggh"));
